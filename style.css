@@ -106,6 +106,7 @@ body {
     padding-left: 39%;
     padding-top: 20px;
     padding-bottom: 10px;
+    color: darkgray;
 
 }
 
@@ -136,4 +137,75 @@ body {
     padding-top: 10px;
     margin-top: 0;
     width: 80%;
+}
+
+.d-p-h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(17, 194, 94);
+}
+
+.d-p-p {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(16, 104, 104);
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+}
+
+.flexible-donate-plan {
+    display: flex;
+    padding-left: 20px;
+
+}
+
+.food-icon {
+
+    background-image: url(icons/icon8.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    font-size: 35px;
+    background-size: 90px;
+    margin-right: 40px;
+}
+
+.medical-icon {
+    background-image: url(icons/medicine.svg);
+    background-repeat: no-repeat;
+    font-size: 35px;
+    background-position: right;
+    background-size: 90px;
+
+
+}
+
+.house-icon {
+    background-image: url(icons/clothes.svg);
+    background-repeat: no-repeat;
+    font-size: 35px;
+    background-position: right;
+    background-size: 90px;
+    margin-right: 20px;
+
+}
+
+.donate-plan-box {
+    width: 40%;
+    padding: 60px 50px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 10px 20px 25px gray;
+}
+
+#food-col {
+    background-color: aquamarine;
+}
+
+#medi-col {
+    background-color: bisque;
+}
+
+#house-col {
+    background-color: lightgreen;
 }
